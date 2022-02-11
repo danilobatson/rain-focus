@@ -1,0 +1,54 @@
+
+$grey: rgb(236,236,236);
+$purple:#823691;
+$red:  #ea5b56;
+
+.hr-top {
+    margin: 0px -40px 0px;
+    border: 0;
+    border-top: 2px solid $grey;
+}
+.hr {
+    margin: 0px -40px 0px;
+    border: 0;
+    border-top: 1px solid $grey;
+}
+
+.time{
+  font-size:0.9rem;
+  font-weight: 900;
+}
+
+.edit, .delete {
+  color:$purple;
+}
+
+.sessions{
+  color: $purple;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.vertical {
+  color: $red;
+  font-weight: 900;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.date {
+  color: black;
+  font-weight: 100;
+}
+
+
+.card-header, .check-in{
+  display: flex;
+  align-items: center;
+}
+
+.card-header {
+justify-content: space-between;
+}

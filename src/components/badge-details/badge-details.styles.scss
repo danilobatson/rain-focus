@@ -1,0 +1,39 @@
+$grey: rgb(236,236,236);
+
+
+.hr {
+    margin: 0px -40px 0px;
+    border: 0;
+    border-top: 2px solid $grey;
+}
+
+.pencil, .printer, .trash{
+  color: silver;
+}
+
+.card-header, .check-in{
+  display: flex;
+  align-items: center;
+}
+
+.card-header {
+justify-content: space-between;
+}
+
+.check-in {
+}
+
+.trash-and-printer {
+}
+
+.check-in-p{
+flex-grow: 6
+}
+
+.trash{
+flex-grow: 0.5;
+}
+
+.printer {
+flex-grow: 0.5;
+}
